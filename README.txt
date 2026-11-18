@@ -3,9 +3,9 @@ XTRAORDINARI LIFE - WEBSITE FILES
 Upload everything in this folder to the root of www.xtraordinari.com.
 
 BEFORE UPLOADING
-1. Copy your own photos into this folder, keeping the same names you used before:
-   images/hero-ocean.jpg  and  images/services/<service-id>.jpg
-   (If a photo is missing, the site uses the Unsplash photo instead.)
+1. Photos are included in images/ (resized from the Unsplash originals).
+   To change a photo, put the new original in photos/ and run:
+   python make-images.py   then   node build-site.js
 2. No phone number is shown. To add one later, put it in CONFIG.phone in assets/site.js.
 
 PAGES
